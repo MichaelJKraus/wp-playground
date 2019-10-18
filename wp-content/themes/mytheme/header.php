@@ -11,6 +11,6 @@
 <body>
     <?php wp_nav_menu( array( 
     'theme_location' => 'header-menu', 
-    'conatiner' => 'nav', 
+    'container' => 'nav', 
     'container_class' => 'nav-menu' ) ) ; 
     ?>
