@@ -4,9 +4,11 @@
  */
 ?>
 
-    <h1>
+    <h2>
+        <a href="<?php the_permalink(); ?>">
         <?php the_title(); ?>
-    </h1>
+        </a>
+    </h2>
 
     <div class="content">
         <?php the_content(); ?>
