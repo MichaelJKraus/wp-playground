@@ -7,3 +7,47 @@ Author URI: www.mjkwebdesign.com
 Tags: New
 */
 
+/* Colors {
+    color: #6483B3;
+    color: #C2DAFF;
+    color: #A8CBFF;
+    color: #B39252;
+    color: #FFE2A8;
+    color: #FBF9F0;
+} */
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Liu Jian Mao Cao', cursive; */
+
+
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FBF9F0;
+    color: #6483B3;
+}
+
+h1 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu-item {
+    display: inline-block;
+    padding-left: 15px;
+    border: 2px;
+}
+
+p {
+    margin: 25px;
+    padding: 10px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}

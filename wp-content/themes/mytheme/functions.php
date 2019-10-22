@@ -20,3 +20,8 @@
     //Then we have to say WHAT function will execute
     // add_action(when, what);
     add_action( 'init', 'register_my_menus');
+
+    function register_my_thumbnails() {
+        add_theme_support('post-thumbnails');
+    }
+    add_action('after_setup_theme' , 'register_my_thumbnails' );

@@ -11,9 +11,20 @@ if (have_posts()) :
 
     //While we have content, set the content to a post
     while (have_posts()) : the_post(); ?>
+        <!-- <?php echo the_post_thumbnail_url('medium'); ?> -->
+        <?php echo the_post_thumbnail('thumbnail'); ?>
+        <!-- <?php echo the_post_thumbnail('medium'); ?> -->
+        <!-- <?php echo the_post_thumbnail('large'); ?> -->
+        <!-- <?php echo the_post_thumbnail('full'); ?> -->
+        <!-- <?php echo the_post_thumbnail(array(100, 300)); ?> -->
+
+        <!-- <a href="<?php the_post_thumbnail_url(); ?>"> -->
+            <!-- <?php the_post_thumbnail('thumbnail'); ?> -->
+            <!-- <?php the_post_thumbnail('thumbnail'); ?> -->
+        <!-- </a> -->
 
         <h1><?php the_title(); ?></h1>
-            <p>Written By: <?php the_author(); ?> </p>
+        <p>Written By: <?php the_author(); ?> </p>
 
         <section class="page-content">
             <?php the_content(); ?>
