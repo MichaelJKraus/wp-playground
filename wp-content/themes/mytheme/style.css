@@ -46,8 +46,15 @@ nav {
 p {
     margin: 25px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
     font-family: 'Roboto', sans-serif;
+    background-color: #B39252;
+    border: 10px;
+    border-color: #FFE2A8;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
 }
